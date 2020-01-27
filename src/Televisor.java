@@ -2,7 +2,7 @@ public class Televisor {
     boolean isOn;
 
     Televisor(boolean isOn) {
-        
+        isOn = false;
     }
     void turnOn() {
         isOn = true;
