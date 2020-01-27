@@ -1,8 +1,8 @@
 public class Televisor {
     boolean isOn;
 
-    Televisor(boolean On) {
-        isOn = On;
+    Televisor(boolean on) {
+        isOn = on;
     }
 
     void turnOn() {
