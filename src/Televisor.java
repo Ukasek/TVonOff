@@ -1,20 +1,20 @@
 public class Televisor {
-    boolean isOnOff;
+    boolean isOn;
 
-    Televisor(boolean isOnOff) {
-        isOnOff = true;
-        isOnOff = false;
+    Televisor(boolean isOn) {
+
     }
 
     void turnOn() {
-        isOnOff = true;
+        isOn = true;
     }
 
     void turnOff() {
-        isOnOff = false;
+        isOn = false;
     }
 
     void showStatus() {
-        System.out.println("Telewizor jest włączony: " + isOnOff);
+
+        System.out.println("Telewizor jest włączony: " + isOn);
     }
 }
